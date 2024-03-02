@@ -1,4 +1,4 @@
-﻿namespace Singleton;
+﻿namespace Singleton.Logger;
 
 // Eager Loading Singleton.
 public sealed class EagerLogger : ILogger

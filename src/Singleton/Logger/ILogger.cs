@@ -1,4 +1,4 @@
-﻿namespace Singleton;
+﻿namespace Singleton.Logger;
 
 public interface ILogger
 {

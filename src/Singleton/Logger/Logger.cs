@@ -1,4 +1,4 @@
-﻿namespace Singleton;
+﻿namespace Singleton.Logger;
 
 // Lazy Loading Singleton.
 // Used sealed to prevent inheritance in same/different class.

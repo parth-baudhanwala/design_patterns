@@ -1,4 +1,4 @@
-﻿namespace Singleton;
+﻿namespace Singleton.Logger;
 
 // Lazy Loading Singleton with Lazy Class feature.
 public sealed class LazyLogger : ILogger

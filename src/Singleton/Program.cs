@@ -1,4 +1,4 @@
-﻿using Singleton;
+﻿using Singleton.Logger;
 
 // Invoked methods parallely to verify thread safety.
 Parallel.Invoke(WriteInfo, WriteError);
