@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{0751CF44-DB1A-496C-82CE-8E5D20CCEB42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0751CF44-DB1A-496C-82CE-8E5D20CCEB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0751CF44-DB1A-496C-82CE-8E5D20CCEB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0751CF44-DB1A-496C-82CE-8E5D20CCEB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
