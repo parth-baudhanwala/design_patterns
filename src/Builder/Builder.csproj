@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ComputerBuilder\ConcreteBuilder\" />
+    <None Remove="ComputerBuilder\AbstractBuilder\" />
+    <None Remove="ComputerBuilder\Product\" />
+    <None Remove="SimpleBuilder\" />
+    <None Remove="FluentBuilder\" />
+    <None Remove="FluentBuilder\AbstractBuilder\" />
+    <None Remove="FluentBuilder\Product\" />
+    <None Remove="FluentBuilder\ConcreteBuilder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SimpleBuilder\ConcreteBuilder\" />
+    <Folder Include="SimpleBuilder\AbstractBuilder\" />
+    <Folder Include="SimpleBuilder\Product\" />
+    <Folder Include="SimpleBuilder\" />
+    <Folder Include="FluentBuilder\" />
+    <Folder Include="FluentBuilder\AbstractBuilder\" />
+    <Folder Include="FluentBuilder\Product\" />
+    <Folder Include="FluentBuilder\ConcreteBuilder\" />
+  </ItemGroup>
+</Project>
