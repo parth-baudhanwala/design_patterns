@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Component\" />
+    <None Remove="Leaf\" />
+    <None Remove="Composite\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Component\" />
+    <Folder Include="Leaf\" />
+    <Folder Include="Composite\" />
+  </ItemGroup>
+</Project>
