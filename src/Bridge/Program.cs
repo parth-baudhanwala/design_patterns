@@ -4,14 +4,14 @@ using Bridge.RefinedAbstractor;
 
 Payment cardPayment = new CardPayment
 {
-    _paymentSystem = new VisaPaymentSystem()
+    paymentSystem = new VisaPaymentSystem()
 };
 
 cardPayment.InitiatePayment();
 
 Payment netBankingPayment = new NetBankingPayment
 {
-    _paymentSystem = new PayPalPaymentSystem()
+    paymentSystem = new PayPalPaymentSystem()
 };
 
 netBankingPayment.InitiatePayment();
