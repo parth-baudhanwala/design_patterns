@@ -6,7 +6,7 @@ public class CardPayment : Payment
 {
     public override void InitiatePayment()
     {
-        _paymentSystem.ProcessPayment("Credit Card");
+        paymentSystem.ProcessPayment("Credit Card");
     }
 }
 

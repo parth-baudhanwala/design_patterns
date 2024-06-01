@@ -6,6 +6,6 @@ public class NetBankingPayment : Payment
 {
     public override void InitiatePayment()
     {
-        _paymentSystem.ProcessPayment("Net Banking");
+        paymentSystem.ProcessPayment("Net Banking");
     }
 }
