@@ -1,4 +1,4 @@
-﻿using Factory.AbstractFactory.AbstractFactory;
+﻿using Factory.AbstractFactory.Abstract;
 using Factory.AbstractFactory.AbstractProduct;
 
 namespace Factory.AbstractFactory.Client;

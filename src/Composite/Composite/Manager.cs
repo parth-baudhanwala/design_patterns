@@ -10,7 +10,7 @@ public class Manager : IEmployee
     {
         Name = name;
         Department = department;
-        subOrdinates = new();
+        subOrdinates = [];
     }
 
     public string Name { get; set; }

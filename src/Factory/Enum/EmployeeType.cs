@@ -5,4 +5,3 @@ public enum EmployeeType
     Contract,
     Permanent
 }
-

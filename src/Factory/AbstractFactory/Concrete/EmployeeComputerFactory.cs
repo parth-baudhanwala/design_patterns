@@ -1,8 +1,8 @@
-﻿using Factory.AbstractFactory.AbstractFactory;
+﻿using Factory.AbstractFactory.Abstract;
 using Factory.Enum;
 using Factory.Model;
 
-namespace Factory.AbstractFactory.ConcreteFactory;
+namespace Factory.AbstractFactory.Concrete;
 
 public class EmployeeComputerFactory
 {

@@ -16,4 +16,3 @@ public class ContractEmployeeFactory : BaseEmployeeFactory
         return contractEmployeeManager;
     }
 }
-

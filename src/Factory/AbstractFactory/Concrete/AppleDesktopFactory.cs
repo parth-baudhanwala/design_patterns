@@ -1,19 +1,19 @@
-﻿using Factory.AbstractFactory.AbstractFactory;
+﻿using Factory.AbstractFactory.Abstract;
 using Factory.AbstractFactory.AbstractProduct;
 using Factory.AbstractFactory.ConcreteProduct;
 
-namespace Factory.AbstractFactory.ConcreteFactory;
+namespace Factory.AbstractFactory.Concrete;
 
-public class DellDesktopFactory : IComputerFactory
+public class AppleDesktopFactory : IComputerFactory
 {
     public IComputerBrand GetComputerBrand()
     {
-        return new Dell();
+        return new Apple();
     }
 
     public IComputerProcessor GetComputerProcessor()
     {
-        return new I3();
+        return new M2();
     }
 
     public IComputerType GetComputerType()

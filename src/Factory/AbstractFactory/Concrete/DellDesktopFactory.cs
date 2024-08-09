@@ -1,10 +1,10 @@
-﻿using Factory.AbstractFactory.AbstractFactory;
+﻿using Factory.AbstractFactory.Abstract;
 using Factory.AbstractFactory.AbstractProduct;
 using Factory.AbstractFactory.ConcreteProduct;
 
-namespace Factory.AbstractFactory.ConcreteFactory;
+namespace Factory.AbstractFactory.Concrete;
 
-public class DellLaptopFactory : IComputerFactory
+public class DellDesktopFactory : IComputerFactory
 {
     public IComputerBrand GetComputerBrand()
     {
@@ -18,6 +18,6 @@ public class DellLaptopFactory : IComputerFactory
 
     public IComputerType GetComputerType()
     {
-        return new Laptop();
+        return new Desktop();
     }
 }

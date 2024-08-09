@@ -4,4 +4,3 @@ public interface IMovie
 {
     public string GetMovies();
 }
-

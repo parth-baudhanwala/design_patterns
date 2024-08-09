@@ -1,6 +1,6 @@
-﻿using Factory.AbstractFactory.AbstractFactory;
+﻿using Factory.AbstractFactory.Abstract;
 using Factory.AbstractFactory.Client;
-using Factory.AbstractFactory.ConcreteFactory;
+using Factory.AbstractFactory.Concrete;
 using Factory.Enum;
 using Factory.FactoryMethod;
 using Factory.Manager;

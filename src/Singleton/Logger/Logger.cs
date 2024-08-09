@@ -19,7 +19,7 @@ public sealed class Logger : ILogger
             // Refer: https://en.wikipedia.org/wiki/Double-checked_locking
             if (_logger == null)
             {
-                // Used lock to achive thread safety.
+                // Used lock to achieve thread safety.
                 lock (_lockObj)
                 {
                     return _logger ??= new();

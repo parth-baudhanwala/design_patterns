@@ -8,7 +8,7 @@ Console.WriteLine("\n<---------- Deep Copy ---------->\n");
 
 Copy(true);
 
-
+// Copy Menthod
 static void Copy(bool useDeepClone)
 {
     Citizen citizen1 = new()

@@ -1,5 +1,4 @@
-﻿using System;
-namespace Factory.AbstractFactory.AbstractProduct;
+﻿namespace Factory.AbstractFactory.AbstractProduct;
 
 public interface IComputerType
 {

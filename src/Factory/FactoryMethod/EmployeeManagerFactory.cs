@@ -16,4 +16,3 @@ public class EmployeeManagerFactory
         return baseEmployeeFactory;
     }
 }
-

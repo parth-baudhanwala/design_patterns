@@ -25,12 +25,11 @@
     <Folder Include="Model\" />
     <Folder Include="SimpleFactory\" />
     <Folder Include="FactoryMethod\" />
-    <Folder Include="AbstractFactory\" />
     <Folder Include="AbstractFactory\AbstractProduct\" />
     <Folder Include="AbstractFactory\Client\" />
-    <Folder Include="AbstractFactory\ConcreteFactory\" />
+    <Folder Include="AbstractFactory\Concrete\" />
     <Folder Include="AbstractFactory\ConcreteProduct\" />
-    <Folder Include="AbstractFactory\AbstractFactory\" />
+    <Folder Include="AbstractFactory\Abstract\" />
     <Folder Include="Manager\" />
   </ItemGroup>
 </Project>

@@ -9,4 +9,3 @@ public class CardPayment : Payment
         paymentSystem.ProcessPayment("Credit Card");
     }
 }
-

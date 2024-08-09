@@ -1,13 +1,18 @@
-﻿using System.Text.Json;
-using System.Xml.Serialization;
-using Adapter.Adaptee;
+﻿using Adapter.Adaptee;
 using Adapter.Model;
 using Adapter.Target;
+using System.Text.Json;
+using System.Xml.Serialization;
 
 namespace Adapter;
 
 public class MovieAdapter : MovieManager, IMovie
 {
+    private readonly JsonSerializerOptions options = new()
+    {
+        WriteIndented = true
+    };
+
     public override string GetMovies()
     {
         string movieXml = base.GetMovies();
@@ -16,11 +21,6 @@ public class MovieAdapter : MovieManager, IMovie
 
         XmlSerializer xmlSerializer = new(typeof(List<Movie>));
         List<Movie> movies = (List<Movie>)xmlSerializer.Deserialize(stringReader)!;
-
-        JsonSerializerOptions options = new()
-        {
-            WriteIndented = true
-        };
 
         string movieJson = JsonSerializer.Serialize(movies, options);
         return movieJson;

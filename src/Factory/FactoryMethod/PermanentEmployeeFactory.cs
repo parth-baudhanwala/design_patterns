@@ -16,4 +16,3 @@ public class PermanentEmployeeFactory : BaseEmployeeFactory
         return permanentEmployeeManager;
     }
 }
-

@@ -1,8 +1,8 @@
-﻿using Factory.AbstractFactory.AbstractFactory;
+﻿using Factory.AbstractFactory.Abstract;
 using Factory.AbstractFactory.AbstractProduct;
 using Factory.AbstractFactory.ConcreteProduct;
 
-namespace Factory.AbstractFactory.ConcreteFactory;
+namespace Factory.AbstractFactory.Concrete;
 
 public class AppleLaptopFactory : IComputerFactory
 {
