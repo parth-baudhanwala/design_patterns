@@ -1,23 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.9
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{0751CF44-DB1A-496C-82CE-8E5D20CCEB42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{0751CF44-DB1A-496C-82CE-8E5D20CCEB42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{DAEF1FB3-532F-4DD8-8871-EFDBA04D3C57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{B2EB0AF6-C2EF-4FED-B797-3E2C467C438D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{B2EB0AF6-C2EF-4FED-B797-3E2C467C438D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoType", "ProtoType\ProtoType.csproj", "{760D3917-16E8-416D-8194-AEA1F12E60C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoType", "ProtoType\ProtoType.csproj", "{760D3917-16E8-416D-8194-AEA1F12E60C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{FACB8084-FF47-4053-A89B-913B793DD47F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{FACB8084-FF47-4053-A89B-913B793DD47F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{3A69AD53-B76C-40F5-BAFE-427615AA1C46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{3A69AD53-B76C-40F5-BAFE-427615AA1C46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{19D57484-A470-49E1-846F-9EFA5B551E79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{19D57484-A470-49E1-846F-9EFA5B551E79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{A96A0850-5F50-4C28-B88A-556C61C4B989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{A96A0850-5F50-4C28-B88A-556C61C4B989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{39543C28-34BE-4188-8860-EB69400F1407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A96A0850-5F50-4C28-B88A-556C61C4B989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96A0850-5F50-4C28-B88A-556C61C4B989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96A0850-5F50-4C28-B88A-556C61C4B989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39543C28-34BE-4188-8860-EB69400F1407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39543C28-34BE-4188-8860-EB69400F1407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39543C28-34BE-4188-8860-EB69400F1407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39543C28-34BE-4188-8860-EB69400F1407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
