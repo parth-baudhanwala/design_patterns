@@ -17,6 +17,8 @@ public class Stock
     public delegate void PriceChangedHandler(object sender, PriceChangedEventArgs e);
     public event PriceChangedHandler? PriceChanged;
 
+    ///public event EventHandler<PriceChangedEventArgs>? PriceChanged;
+
     public string Symbol { get; }
 
     public double Price
